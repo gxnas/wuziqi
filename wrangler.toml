@@ -1,0 +1,6 @@
+name="gxnas-gomoku-pro-2026-v1"
+main="worker/index.js"
+compatibility_date="2026-08-01"
+
+[ai]
+binding="AI"

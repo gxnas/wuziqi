@@ -1,0 +1,38 @@
+body{
+margin:0;
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+background:linear-gradient(135deg,#1a2a6c,#b21f1f);
+font-family:sans-serif;
+color:white
+}
+.box{
+background:#ffffff22;
+backdrop-filter:blur(20px);
+padding:30px;
+border-radius:20px;
+text-align:center
+}
+#board{
+width:450px;
+height:450px;
+background:#dcb35c;
+margin:20px auto;
+display:grid;
+grid-template-columns:repeat(15,1fr);
+gap:1px;
+}
+.cell{
+background:#dcb35c;
+border:1px solid #8b6b3d;
+cursor:pointer
+}
+.black{background:#111;border-radius:50%}
+.white{background:#eee;border-radius:50%}
+button{
+padding:12px 25px;
+border:0;
+border-radius:10px
+}
